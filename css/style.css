@@ -1,0 +1,606 @@
+body{
+	margin:0px;
+	padding: 0px;
+	font-family: Arial,Helvetica,sans-serif;
+
+}
+.header{
+	display: flex;
+    justify-content: space-between;
+    padding: 1% 20% 1% 20%;
+    width:60%;
+    background: white;
+    position: fixed;
+}
+.menu{
+	display:flex;
+	justify-content: space-between;
+	width:50%;
+    color:#0F4C85;
+    padding-top: 15px;
+}
+.main{
+	background:
+    linear-gradient(
+          rgba(0, 0, 0, 0.5), 
+          rgba(0, 0, 0, 0.5)
+        ),
+    url('https://atlant-tm.com/sites/default/files/product_image_gallery/31-03.jpg');
+	height:800px;
+	background-attachment: fixed;
+	background-size: 100%;
+}
+.main-block{
+	height:100%;
+	width:35%;
+	background: #0F4C85;
+	background-color: rgba(0,28,140,.8);
+	color:white;
+	animation: shadow  1s ease-in-out;
+}
+.section-main{
+	height:auto;
+	background: #bcc8e8;
+	padding: 0 15% 0 15%;
+	color:#0F4C85;
+}
+.section-flex{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.section-block{
+	width:550px;
+}
+.section-block>img{
+	border-radius: 100%;
+	height:150px;
+	width:180px;
+}
+.section-text{
+	width:400px;
+	font-size:120%;
+}
+.section-main>ul>li{
+	font-size:120%;
+}
+.section-main>ul>p{
+	font-size:120%;
+}
+.section2{
+	height:auto;
+	background: #002175;
+	margin-top:-1.5%; 
+	color:white;
+	padding: 0 15% 0 15%;
+}
+.box{
+	width:450px;
+}
+.box>.section-flex>img{
+	height:120px;
+	width:140px;
+	border-radius:30px;
+	margin:1%;
+}
+.section2-flex{
+	display: flex;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+}
+.section3{
+	height:600px;
+	background: url('https://atlant-tm.com/sites/default/files/product_image_gallery/31-03.jpg');
+	background-attachment: fixed;
+	background-size: 100%;
+}
+.section4{
+	background: #bcc8e8;
+	color:#0F4C85;
+	margin-top: -1.5%;
+}
+.section4>ul>li{
+	font-size:120%;
+}
+.section5{
+	animation: shadow  1s ease-in-out;
+	height:auto;
+	margin-top: -2%;
+	background:
+	 linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ),
+	url('https://atlant-tm.com/sites/default/files/product_image_gallery/31-03.jpg');
+	background-attachment: fixed;
+	background-size: 100%;
+	color:white;
+}
+.section5>.main-block>h1{
+	font-size:250%;
+}
+.contact>h3{
+	margin-top:100px;
+}
+.main-block1{
+	height:800px;
+	width:35%;
+	background: #0F4C85;
+	background-color: rgba(0,28,140,.8);
+	color:white;
+}
+.sec5-form{
+width: 700px;
+margin-right:2%;
+
+}
+.form1{
+	width:300px;
+}
+.form2{
+	width:300px;
+}
+.form1>form>p> input{
+	width:100%;
+	border:none;
+	margin:1%;
+	height:30px;
+	padding: 1%;
+	font-size:100%;
+}
+.form2> textarea{
+	width:100%;
+	border:none;
+	margin:1%;
+	height:215px;
+	padding: 1%;
+	font-size:100%;
+}
+.btn{
+	font-size:120%;
+	background: rgba(65, 183, 196, 1);	
+	color:white;
+	border:none;
+	padding: 1%;
+	margin-right:3%;
+}
+.footer{
+	height:150px;
+	background: #002175;
+	color:white;	
+}
+.res-menu{
+	display: none;
+}
+.res-menu1{
+	display: none;
+}
+.list-menu{
+	height:300px;
+	width:100%;
+	background:silver;
+	background-color: rgba(0,0,0,.9);
+	position: fixed;
+	top:10%;
+	color:white;
+	display: none;
+}
+.hov:hover{
+	color:rgba(65, 183, 196, 1);
+}
+.block{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+.block1{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+.block2{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+.block3{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+.block4{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+.block5{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+.block6{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+.block7{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+.block8{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+.block9{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+.block10{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+.block11{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+.block12{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+.block13{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+.block14{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+.block15{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+.block16{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+.block17{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+.block18{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+.block19{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+.block20{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+.block21{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+.block22{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+.block23{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+.block24{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+.block25{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+.block26{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+.block27{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+.block28{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+.block29{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+.block30{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+.block31{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+.block32{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+.block33{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+.block34{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+.block35{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+.block36{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+.block37{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+.block38{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+.block39{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+.block40{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+.block41{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+
+@media screen and (max-width:900px){
+.main-block{
+	width:60%;
+}
+.menu{
+	display: none;
+}
+.res-menu{
+	display: block;
+}
+.header{
+	justify-content: space-around;
+}
+}
+@media screen and (max-width:1100px){
+.main-block1{
+display:none;
+}
+}
+
+@media screen and (max-width:500px){
+.main-block{
+width: 100%;
+}
+.form1{
+	width:58%;
+}
+.form1> p > input{
+	width:80%;
+}
+}
+
+@keyframes shadow {
+from {opacity: 0;}
+to {opacity:1;}
+}
+
